@@ -43,6 +43,11 @@ public class Card implements Serializable {
     public void setHealth(int health) { this.health = health; }
     public void setAttackBehaviour(AttackBehaviour attackBehaviour) { this.attackBehaviour = attackBehaviour; }
 
+    // Added getter for attackBehaviour
+    public AttackBehaviour getAttackBehaviour() {
+        return attackBehaviour;
+    }
+
     /**
      * Performs attack behaviour on target card or player.
      * 

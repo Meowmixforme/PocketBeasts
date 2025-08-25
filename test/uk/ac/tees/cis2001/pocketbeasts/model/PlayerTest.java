@@ -6,7 +6,12 @@ import java.util.List;
 import java.util.ArrayList;
 import uk.ac.tees.cis2001.pocketbeasts.patterns.BeastAttack;
 
-class PlayerTest {
+public class PlayerTest {
+
+    public PlayerTest() {
+        // Default constructor
+    }
+
     @Test
     void testPlayerConstructorAndStart() {
         List<Card> cards = new ArrayList<>();

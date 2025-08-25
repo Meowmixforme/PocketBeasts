@@ -4,7 +4,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import uk.ac.tees.cis2001.pocketbeasts.patterns.BeastAttack;
 
-class CardTest {
+public class CardTest {
+
+    public CardTest() {
+        // Default public constructor
+    }
 
     @Test
     void testCardConstructorAndGetters() {
