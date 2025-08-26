@@ -42,10 +42,14 @@ PocketBeasts is a two-player, turn-based card game. Each player controls a deck 
 
 Ashen Lamb
 
-<img width="500" height="500" alt="Ashen_Lamb" src="https://github.com/user-attachments/assets/83f154d4-bfd8-4d79-bb82-58a47cadbe86" />
+<img width="200" height="200" alt="Ashen_Lamb" src="https://github.com/user-attachments/assets/83f154d4-bfd8-4d79-bb82-58a47cadbe86" />
 
 
 Aqua Serpent
+
+<img width="200" height="200" alt="Aqua_Serpent" src="https://github.com/user-attachments/assets/23d64b86-8282-4ad0-bcb0-f152762d8867" />
+
+
 Moss Golem
 Fire Whelp
 Thunder Hawk
