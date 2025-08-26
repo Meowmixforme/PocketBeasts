@@ -90,7 +90,7 @@ This application has been **refactored and improved** since its initial implemen
 - **Extensibility:** New card types and attack strategies can easily be added without major rewrites.
 - **GUI improvements:** The user interface updates automatically with game state changes, making the game flow intuitive and interactive.
 - **Robust end-game handling:** The game now properly detects all win/loss/draw conditions.
-- **Cleaner, more readable code:** The codebase is more modular and easier to understand for future development or university marking.
+- **Cleaner, more readable code:** The codebase is more modular and easier to understand.
 
 ## How to Run
 
