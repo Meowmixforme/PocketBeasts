@@ -1,15 +1,15 @@
 package uk.ac.tees.cis2001.pocketbeasts.patterns;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 import uk.ac.tees.cis2001.pocketbeasts.model.Card;
 import uk.ac.tees.cis2001.pocketbeasts.model.Player;
 import java.util.Collections;
 
-class StrategyPatternTest {
+public class StrategyPatternTest {
 
     @Test
-    void testDirectAttack() {
+    public void testDirectAttack() {
         Player player = new Player("Test", new uk.ac.tees.cis2001.pocketbeasts.model.Deck(Collections.emptyList()));
         Card card = new Card("A", "Attacker", 1, 2, 2, new DirectAttack());
         card.performAttack(player);
@@ -17,7 +17,7 @@ class StrategyPatternTest {
     }
 
     @Test
-    void testBeastAttack() {
+    public void testBeastAttack() {
         Card attacker = new Card("A", "Attacker", 1, 2, 2, new BeastAttack());
         Card defender = new Card("B", "Defender", 1, 1, 3, new BeastAttack());
         attacker.performAttack(defender);

@@ -64,10 +64,12 @@ public class Player {
         if (c != null) hand.add(c);
     }
 
-    public boolean damage(int amount) {
-        health -= amount;
-        return health <= 0;
-    }
+public boolean damage(int amount) {
+    System.out.println(name + " takes " + amount + " damage. HP before: " + health);
+    health -= amount;
+    System.out.println(name + " HP after: " + health);
+    return health <= 0;
+}
 
     public void playCard(Card card) {
         if (card.getManaCost() <= manaAvailable) {

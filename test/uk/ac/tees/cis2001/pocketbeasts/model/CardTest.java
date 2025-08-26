@@ -1,7 +1,7 @@
 package uk.ac.tees.cis2001.pocketbeasts.model;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 import uk.ac.tees.cis2001.pocketbeasts.patterns.BeastAttack;
 
 public class CardTest {
@@ -11,7 +11,7 @@ public class CardTest {
     }
 
     @Test
-    void testCardConstructorAndGetters() {
+    public void testCardConstructorAndGetters() {
         Card card = new Card("BR", "Barn Rat", 1, 1, 2, new BeastAttack());
         assertEquals("BR", card.getId());
         assertEquals("Barn Rat", card.getName());
@@ -21,7 +21,7 @@ public class CardTest {
     }
 
     @Test
-    void testDamage() {
+    public void testDamage() {
         Card card = new Card("BR", "Barn Rat", 1, 1, 2, new BeastAttack());
         card.damage(1);
         assertEquals(1, card.getHealth());
