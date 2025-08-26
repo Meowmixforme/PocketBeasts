@@ -1,6 +1,6 @@
 # PocketBeasts
 
-A simple Java card game project, demonstrating object-oriented programming and design patterns with a graphical interface.
+A simple Java card game project created for my second year university module Software Design Patterns, demonstrating object-oriented programming and design patterns with a graphical interface.
 
 ## Features
 
@@ -37,6 +37,23 @@ PocketBeasts is a two-player, turn-based card game. Each player controls a deck 
    - Each beast can attack once per turn, following its strategy (direct or beast attack).
    - Direct attacks damage the opponent's health.
    - Beast-vs-beast attacks can defeat opponent beasts and move them to the graveyard.
+  
+## The PocketBeasts
+
+Ashen Lamb
+
+<img width="500" height="500" alt="Ashen_Lamb" src="https://github.com/user-attachments/assets/83f154d4-bfd8-4d79-bb82-58a47cadbe86" />
+
+
+Aqua Serpent
+Moss Golem
+Fire Whelp
+Thunder Hawk
+Frost Lynx
+Stone Rhino
+Shadow Bat
+Sun Sprite
+Wind Sprite
 
 ### End Game Conditions
 
@@ -63,6 +80,4 @@ This application has been **refactored and improved** since its initial implemen
 
 - JUnit tests are in the `test` folder.
 
----
-
-_This project was developed for a second year university module on Software Design Patterns._
+## Screenshots
