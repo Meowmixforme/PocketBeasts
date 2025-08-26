@@ -51,11 +51,28 @@ Aqua Serpent
 
 
 Moss Golem
+
+<img width="200" height="200" alt="Moss_Golem" src="https://github.com/user-attachments/assets/63c9861c-80f2-4c72-8477-966193654874" />
+
+
 Fire Whelp
+
+<img width="200" height="200" alt="Fire_Whelp" src="https://github.com/user-attachments/assets/4eb13afd-08fd-435f-aa29-385610c9c41e" />
+
+
 Thunder Hawk
+
+<img width="200" height="200" alt="Thunder_Hawk" src="https://github.com/user-attachments/assets/876c6d3f-505c-4ea9-acf1-9719d3264f31" />
+
+
 Frost Lynx
+
+<img width="200" height="200" alt="Frost_Lynx" src="https://github.com/user-attachments/assets/99af412f-e792-42cc-baac-82d29ec470fd" />
+
+
 Stone Rhino
 Shadow Bat
+
 Sun Sprite
 Wind Sprite
 
