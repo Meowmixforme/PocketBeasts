@@ -4,6 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import uk.ac.tees.cis2001.pocketbeasts.patterns.BeastAttack;
 
+
 public class CardTest {
 
     public CardTest() {
