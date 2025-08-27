@@ -71,10 +71,24 @@ Frost Lynx
 
 
 Stone Rhino
+
+<img width="200" height="200" alt="Stone_Rhino" src="https://github.com/user-attachments/assets/876ebd91-94cf-4b1f-a2b7-c90952efbe15" />
+
+
 Shadow Bat
 
+<img width="200" height="200" alt="Shadow_Bat" src="https://github.com/user-attachments/assets/7021aa03-a485-4e3c-8568-36a50dfbdc7e" />
+
+
 Sun Sprite
+
+<img width="200" height="200" alt="Sun_Sprite" src="https://github.com/user-attachments/assets/03cb5ddd-a6f5-4d5f-9b2c-faef236c29c9" />
+
+
 Wind Sprite
+
+<img width="200" height="200" alt="Wind_Sprite" src="https://github.com/user-attachments/assets/c89eb25c-b989-4052-8b44-d203b082976a" />
+
 
 ### End Game Conditions
 
