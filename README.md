@@ -40,10 +40,10 @@ PocketBeasts is a two-player, turn-based card game. Each player controls a deck 
   
 ## The PocketBeasts
 
-**Ashen Lamb**
--Class: Direct Attacker
--Mana: 2 | Attack: 1 | Health: 3
--Description: Sneaky low-attack, high-health direct attacker
+Ashen Lamb
+   -Class: Direct Attacker 
+   -Mana: 2 | Attack: 1 | Health: 3
+   -Description: Sneaky low-attack, high-health direct attacker
    
 <img width="200" height="200" alt="Ashen_Lamb" src="https://github.com/user-attachments/assets/83f154d4-bfd8-4d79-bb82-58a47cadbe86" />
 
@@ -57,58 +57,66 @@ Aqua Serpent
 
 
 Moss Golem
-   Class: Beast Attacker
-   Mana: 3 | Attack: 2 | Health: 4
-   Description: Nature-based balanced tank
+   -Class: Beast Attacker
+   -Mana: 3 | Attack: 2 | Health: 4
+  - Description: Nature-based balanced tank
+    
 <img width="200" height="200" alt="Moss_Golem" src="https://github.com/user-attachments/assets/63c9861c-80f2-4c72-8477-966193654874" />
 
 
 Fire Whelp
-   Class: Direct Attacker
-   Mana: 3 | Attack: 4 | Health: 3
-   Description: High-damage fire-based direct attacker
+   -Class: Direct Attacker
+   -Mana: 3 | Attack: 4 | Health: 3
+   -Description: High-damage fire-based direct attacker
+   
 <img width="200" height="200" alt="Fire_Whelp" src="https://github.com/user-attachments/assets/4eb13afd-08fd-435f-aa29-385610c9c41e" />
 
 
 Thunder Hawk
-   Class: Direct Attacker
-   Mana: 2 | Attack: 3 | Health: 2
-   Description: Fast flying direct attacker
+   -Class: Direct Attacker
+   -Mana: 2 | Attack: 3 | Health: 2
+   -Description: Fast flying direct attacker
+   
 <img width="200" height="200" alt="Thunder_Hawk" src="https://github.com/user-attachments/assets/876c6d3f-505c-4ea9-acf1-9719d3264f31" />
 
 
 Frost Lynx
-   Class: Beast Attacker
-   Mana: 2 | Attack: 3 | Health: 2
-   Description: Fast ice-based attacker
+   -Class: Beast Attacker
+   -Mana: 2 | Attack: 3 | Health: 2
+   -Description: Fast ice-based attacker
+   
 <img width="200" height="200" alt="Frost_Lynx" src="https://github.com/user-attachments/assets/99af412f-e792-42cc-baac-82d29ec470fd" />
 
 
 Stone Rhino
-   Class: Beast Attacker
-   Mana: 4 | Attack: 3 | Health: 6
-   Description: Heavy tank with massive health
+   -Class: Beast Attacker
+   -Mana: 4 | Attack: 3 | Health: 6
+   -Description: Heavy tank with massive health
+   
 <img width="200" height="200" alt="Stone_Rhino" src="https://github.com/user-attachments/assets/876ebd91-94cf-4b1f-a2b7-c90952efbe15" />
 
 
 Shadow Bat
-   Class: Beast Attacker
-   Mana: 1 | Attack: 2 | Health: 1
-   Description: Glass cannon - cheap with decent attack but fragile
+   -Class: Beast Attacker
+   -Mana: 1 | Attack: 2 | Health: 1
+   -Description: Glass cannon - cheap with decent attack but fragile
+   
 <img width="200" height="200" alt="Shadow_Bat" src="https://github.com/user-attachments/assets/7021aa03-a485-4e3c-8568-36a50dfbdc7e" />
 
 
 Sun Sprite
-   Class: Direct Attacker
-   Mana: 2 | Attack: 2 | Health: 3
-   Description: Light-based balanced direct attacker
+   -Class: Direct Attacker
+   -Mana: 2 | Attack: 2 | Health: 3
+   -Description: Light-based balanced direct attacker
+   
 <img width="200" height="200" alt="Sun_Sprite" src="https://github.com/user-attachments/assets/03cb5ddd-a6f5-4d5f-9b2c-faef236c29c9" />
 
 
 Wind Sprite
-   Class: Beast Attacker
-   Mana: 1 | Attack: 1 | Health: 2
-   Description: Cheap, fast early-game beast
+   -Class: Beast Attacker
+   -Mana: 1 | Attack: 1 | Health: 2
+   -Description: Cheap, fast early-game beast
+   
 <img width="200" height="200" alt="Wind_Sprite" src="https://github.com/user-attachments/assets/c89eb25c-b989-4052-8b44-d203b082976a" />
 
 
