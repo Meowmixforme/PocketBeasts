@@ -1,18 +1,16 @@
-package uk.ac.tees.cis2001.pocketbeasts;
+package uk.ac.tees.cis2001.pocketbeasts.utils;
 
-import uk.ac.tees.cis2001.pocketbeasts.controller.Game;
-import uk.ac.tees.cis2001.pocketbeasts.gui.GameFrame;
 import uk.ac.tees.cis2001.pocketbeasts.model.Card;
-import uk.ac.tees.cis2001.pocketbeasts.model.Deck;
-import uk.ac.tees.cis2001.pocketbeasts.model.Player;
 import uk.ac.tees.cis2001.pocketbeasts.patterns.BeastAttack;
 import uk.ac.tees.cis2001.pocketbeasts.patterns.DirectAttack;
 
-import javax.swing.*;
 import java.io.InputStream;
 import java.util.*;
 
-public class Main {
+/**
+ * Generates cards dynamically based on available image files.
+ */
+public class CardGenerator {
     
     // Available images in your src/images/ folder
     private static final String[] AVAILABLE_IMAGES = {
@@ -21,29 +19,10 @@ public class Main {
         "Thunder_Hawk", "Wind_Sprite"
     };
     
-    public static void main(String[] args) {
-        // Generate decks dynamically from available images
-        List<Card> deck1Cards = createBalancedDeck(8, "Player1");
-        List<Card> deck2Cards = createBalancedDeck(8, "Player2");
-        
-        Deck deck1 = new Deck(deck1Cards);
-        Deck deck2 = new Deck(deck2Cards);
-        
-        Player p1 = new Player("James", deck1);
-        Player p2 = new Player("Steve", deck2);
-
-        Game game = new Game(p1, p2);
-        SwingUtilities.invokeLater(() -> {
-            new GameFrame(game);
-            game.start();
-            game.nextTurn();
-        });
-    }
-    
     /**
      * Generate a list of cards based on available images
      */
-    private static List<Card> generateCards() {
+    public static List<Card> generateCards() {
         List<Card> cards = new ArrayList<>();
         int cardId = 1;
         
@@ -60,7 +39,7 @@ public class Main {
     /**
      * Create a balanced deck from available cards
      */
-    private static List<Card> createBalancedDeck(int deckSize, String playerPrefix) {
+    public static List<Card> createBalancedDeck(int deckSize) {
         List<Card> allCards = generateCards();
         List<Card> deck = new ArrayList<>();
         Random random = new Random();
@@ -70,7 +49,7 @@ public class Main {
             Card template = allCards.get(random.nextInt(allCards.size()));
             // Create a copy with unique ID
             Card cardCopy = new Card(
-                playerPrefix + "_C" + (i + 1),
+                "C" + (i + 1),
                 template.getName(),
                 template.getManaCost(),
                 template.getAttack(),
@@ -84,7 +63,7 @@ public class Main {
     }
     
     private static boolean imageExists(String imageName) {
-        InputStream imageStream = Main.class.getResourceAsStream("/images/" + imageName + ".png");
+        InputStream imageStream = CardGenerator.class.getResourceAsStream("/images/" + imageName + ".png");
         return imageStream != null;
     }
     
@@ -93,7 +72,7 @@ public class Main {
         CardStats stats = generateStatsForCard(imageName);
         
         return new Card(
-            "Template_C" + cardId,
+            "C" + cardId,
             cardName,
             stats.manaCost,
             stats.attack,
@@ -121,8 +100,6 @@ public class Main {
                 return new CardStats(2, 3, 2, true); // Flying direct attacker
             case "Sun_Sprite":
                 return new CardStats(2, 2, 3, true); // Light-based direct attacker
-            case "Ashen_Lamb":
-                return new CardStats(2, 1, 3, true); // Sneaky direct attacker
             case "Wind_Sprite":
                 return new CardStats(1, 1, 2, false); // Fast, low-cost beast
             case "Aqua_Serpent":
@@ -135,6 +112,8 @@ public class Main {
                 return new CardStats(2, 3, 2, false); // Fast ice beast
             case "Shadow_Bat":
                 return new CardStats(1, 2, 1, false); // Fast, cheap beast
+            case "Ashen_Lamb":
+                return new CardStats(2, 1, 3, true); // Sneaky direct attacker
             default:
                 return new CardStats(2, 2, 2, false); // Default balanced stats
         }
