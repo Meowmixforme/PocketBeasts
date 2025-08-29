@@ -116,3 +116,13 @@ This application has been **refactored and improved** since its initial implemen
 - JUnit tests are in the `test` folder.
 
 ## Screenshots
+
+<img width="500" height="500" alt="Screenshot 2025-08-29 041547" src="https://github.com/user-attachments/assets/65787888-0f35-432f-93b7-72af7a62e508" />
+
+<img width="500" height="500" alt="Screenshot 2025-08-29 041718" src="https://github.com/user-attachments/assets/fefe3944-a527-4796-86f5-d6b18c80653d" />
+
+<img width="500" height="500" alt="Screenshot 2025-08-29 041748" src="https://github.com/user-attachments/assets/fd73b954-5afd-41cb-8a41-0856a287721b" />
+
+
+
+
