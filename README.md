@@ -40,10 +40,10 @@ PocketBeasts is a two-player, turn-based card game. Each player controls a deck 
   
 ## The PocketBeasts
 
-Ashen Lamb
-   -Class: Direct Attacker 
-   -Mana: 2 | Attack: 1 | Health: 3
-   -Description: Sneaky low-attack, high-health direct attacker
+**Ashen Lamb**  
+   - Class: Direct Attacker 
+   - Mana: 2 | Attack: 1 | Health: 3
+   - Description: Sneaky low-attack, high-health direct attacker
    
 <img width="200" height="200" alt="Ashen_Lamb" src="https://github.com/user-attachments/assets/83f154d4-bfd8-4d79-bb82-58a47cadbe86" />
 
@@ -51,9 +51,9 @@ Ashen Lamb
 
 
 Aqua Serpent
-   -Class: Beast Attacker
-   -Mana: 3 | Attack: 2 | Health: 5
-   -Description: Tanky water-based defender
+   - Class: Beast Attacker
+   - Mana: 3 | Attack: 2 | Health: 5
+   - Description: Tanky water-based defender
    
 <img width="200" height="200" alt="Aqua_Serpent" src="https://github.com/user-attachments/assets/23d64b86-8282-4ad0-bcb0-f152762d8867" />
 
@@ -61,8 +61,8 @@ Aqua Serpent
 
 
 Moss Golem
-   -Class: Beast Attacker
-   -Mana: 3 | Attack: 2 | Health: 4
+  - Class: Beast Attacker
+  - Mana: 3 | Attack: 2 | Health: 4
   - Description: Nature-based balanced tank
     
 <img width="200" height="200" alt="Moss_Golem" src="https://github.com/user-attachments/assets/63c9861c-80f2-4c72-8477-966193654874" />
