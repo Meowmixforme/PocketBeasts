@@ -118,20 +118,20 @@ PocketBeasts is a two-player, turn-based card game. Each player controls a deck 
 
 
 
-Sun Sprite
-   -Class: Direct Attacker
-   -Mana: 2 | Attack: 2 | Health: 3
-   -Description: Light-based balanced direct attacker
+**Sun Sprite**
+   - Class: Direct Attacker
+   - Mana: 2 | Attack: 2 | Health: 3
+   - Description: Light-based balanced direct attacker
    
 <img width="200" height="200" alt="Sun_Sprite" src="https://github.com/user-attachments/assets/03cb5ddd-a6f5-4d5f-9b2c-faef236c29c9" />
 
 
 
 
-Wind Sprite
-   -Class: Beast Attacker
-   -Mana: 1 | Attack: 1 | Health: 2
-   -Description: Cheap, fast early-game beast
+**Wind Sprite**
+   - Class: Beast Attacker
+   - Mana: 1 | Attack: 1 | Health: 2
+   - Description: Cheap, fast early-game beast
    
 <img width="200" height="200" alt="Wind_Sprite" src="https://github.com/user-attachments/assets/c89eb25c-b989-4052-8b44-d203b082976a" />
 
