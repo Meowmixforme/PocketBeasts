@@ -19,7 +19,7 @@ public class EnemyInPlayPanel extends JPanel {
     public void updateInPlay(List<Card> inPlay, boolean enableTarget, Consumer<Card> onTarget) {
         removeAll();
         for (Card card : inPlay) {
-            JButton cardBtn = new JButton(card.toString());
+            CardButton cardBtn = new CardButton(card);
             cardBtn.setEnabled(enableTarget);
             cardBtn.addActionListener(ev -> onTarget.accept(card));
             add(cardBtn);

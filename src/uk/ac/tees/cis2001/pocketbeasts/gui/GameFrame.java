@@ -34,7 +34,7 @@ public class GameFrame extends JFrame implements GameObserver {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        enemyScrollPane.setPreferredSize(new Dimension(700, 120));
+        enemyScrollPane.setPreferredSize(new Dimension(700, 180)); // Increased height for card images
 
         JPanel topPanel = new JPanel(new BorderLayout());
         topPanel.add(infoLabel, BorderLayout.NORTH);
@@ -42,7 +42,7 @@ public class GameFrame extends JFrame implements GameObserver {
         topPanel.add(enemyPlayerButton, BorderLayout.EAST);
 
         add(topPanel, BorderLayout.NORTH);
-        add(handPanel, BorderLayout.SOUTH);
+        add(handPanel, BorderLayout.SOUTH); // Hand panel now has fixed height for full visibility
         add(inPlayPanel, BorderLayout.CENTER);
         add(endTurnButton, BorderLayout.WEST);
 
@@ -50,7 +50,7 @@ public class GameFrame extends JFrame implements GameObserver {
         enemyPlayerButton.addActionListener(this::handleEnemyPlayerAttack);
 
         updateDisplay();
-        setSize(900, 700);
+        setSize(1000, 800); // Slightly larger to accommodate image buttons
         setVisible(true);
     }
 
@@ -65,6 +65,7 @@ public class GameFrame extends JFrame implements GameObserver {
         updateDisplay();
     }
 
+    // ... rest of the methods remain the same as before ...
     private void updateDisplay() {
         Player player = game.getCurrentPlayer();
         Player enemy = game.getOtherPlayer();

@@ -19,7 +19,7 @@ public class PlayerInPlayPanel extends JPanel {
     public void updateInPlay(List<Card> inPlay, Card selectedAttacker, Consumer<Card> onSelect, boolean enabled) {
         removeAll();
         for (Card card : inPlay) {
-            JButton cardBtn = new JButton(card.toString());
+            CardButton cardBtn = new CardButton(card);
             if (selectedAttacker == card) {
                 cardBtn.setBackground(Color.YELLOW);
             }
