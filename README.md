@@ -48,12 +48,16 @@ Ashen Lamb
 <img width="200" height="200" alt="Ashen_Lamb" src="https://github.com/user-attachments/assets/83f154d4-bfd8-4d79-bb82-58a47cadbe86" />
 
 
+
+
 Aqua Serpent
    -Class: Beast Attacker
    -Mana: 3 | Attack: 2 | Health: 5
    -Description: Tanky water-based defender
    
 <img width="200" height="200" alt="Aqua_Serpent" src="https://github.com/user-attachments/assets/23d64b86-8282-4ad0-bcb0-f152762d8867" />
+
+
 
 
 Moss Golem
@@ -64,6 +68,8 @@ Moss Golem
 <img width="200" height="200" alt="Moss_Golem" src="https://github.com/user-attachments/assets/63c9861c-80f2-4c72-8477-966193654874" />
 
 
+
+
 Fire Whelp
    -Class: Direct Attacker
    -Mana: 3 | Attack: 4 | Health: 3
@@ -72,12 +78,16 @@ Fire Whelp
 <img width="200" height="200" alt="Fire_Whelp" src="https://github.com/user-attachments/assets/4eb13afd-08fd-435f-aa29-385610c9c41e" />
 
 
+
+
 Thunder Hawk
    -Class: Direct Attacker
    -Mana: 2 | Attack: 3 | Health: 2
    -Description: Fast flying direct attacker
    
 <img width="200" height="200" alt="Thunder_Hawk" src="https://github.com/user-attachments/assets/876c6d3f-505c-4ea9-acf1-9719d3264f31" />
+
+
 
 
 Frost Lynx
@@ -96,6 +106,8 @@ Stone Rhino
 <img width="200" height="200" alt="Stone_Rhino" src="https://github.com/user-attachments/assets/876ebd91-94cf-4b1f-a2b7-c90952efbe15" />
 
 
+
+
 Shadow Bat
    -Class: Beast Attacker
    -Mana: 1 | Attack: 2 | Health: 1
@@ -104,12 +116,16 @@ Shadow Bat
 <img width="200" height="200" alt="Shadow_Bat" src="https://github.com/user-attachments/assets/7021aa03-a485-4e3c-8568-36a50dfbdc7e" />
 
 
+
+
 Sun Sprite
    -Class: Direct Attacker
    -Mana: 2 | Attack: 2 | Health: 3
    -Description: Light-based balanced direct attacker
    
 <img width="200" height="200" alt="Sun_Sprite" src="https://github.com/user-attachments/assets/03cb5ddd-a6f5-4d5f-9b2c-faef236c29c9" />
+
+
 
 
 Wind Sprite
