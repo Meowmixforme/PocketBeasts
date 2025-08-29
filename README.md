@@ -50,7 +50,7 @@ PocketBeasts is a two-player, turn-based card game. Each player controls a deck 
 
 
 
-Aqua Serpent
+**Aqua Serpent** 
    - Class: Beast Attacker
    - Mana: 3 | Attack: 2 | Health: 5
    - Description: Tanky water-based defender
@@ -60,7 +60,7 @@ Aqua Serpent
 
 
 
-Moss Golem
+**Moss Golem**
   - Class: Beast Attacker
   - Mana: 3 | Attack: 2 | Health: 4
   - Description: Nature-based balanced tank
@@ -70,48 +70,48 @@ Moss Golem
 
 
 
-Fire Whelp
-   -Class: Direct Attacker
-   -Mana: 3 | Attack: 4 | Health: 3
-   -Description: High-damage fire-based direct attacker
+**Fire Whelp**
+   - Class: Direct Attacker
+   - Mana: 3 | Attack: 4 | Health: 3
+   - Description: High-damage fire-based direct attacker
    
 <img width="200" height="200" alt="Fire_Whelp" src="https://github.com/user-attachments/assets/4eb13afd-08fd-435f-aa29-385610c9c41e" />
 
 
 
 
-Thunder Hawk
-   -Class: Direct Attacker
-   -Mana: 2 | Attack: 3 | Health: 2
-   -Description: Fast flying direct attacker
+**Thunder Hawk**
+   - Class: Direct Attacker
+   - Mana: 2 | Attack: 3 | Health: 2
+   - Description: Fast flying direct attacker
    
 <img width="200" height="200" alt="Thunder_Hawk" src="https://github.com/user-attachments/assets/876c6d3f-505c-4ea9-acf1-9719d3264f31" />
 
 
 
 
-Frost Lynx
-   -Class: Beast Attacker
-   -Mana: 2 | Attack: 3 | Health: 2
-   -Description: Fast ice-based attacker
+**Frost Lynx**
+   - Class: Beast Attacker
+   - Mana: 2 | Attack: 3 | Health: 2
+   - Description: Fast ice-based attacker
    
 <img width="200" height="200" alt="Frost_Lynx" src="https://github.com/user-attachments/assets/99af412f-e792-42cc-baac-82d29ec470fd" />
 
 
-Stone Rhino
-   -Class: Beast Attacker
-   -Mana: 4 | Attack: 3 | Health: 6
-   -Description: Heavy tank with massive health
+**Stone Rhino**
+   - Class: Beast Attacker
+   - Mana: 4 | Attack: 3 | Health: 6
+   - Description: Heavy tank with massive health
    
 <img width="200" height="200" alt="Stone_Rhino" src="https://github.com/user-attachments/assets/876ebd91-94cf-4b1f-a2b7-c90952efbe15" />
 
 
 
 
-Shadow Bat
-   -Class: Beast Attacker
-   -Mana: 1 | Attack: 2 | Health: 1
-   -Description: Glass cannon - cheap with decent attack but fragile
+**Shadow Bat**
+   - Class: Beast Attacker
+   - Mana: 1 | Attack: 2 | Health: 1
+   - Description: Glass cannon - cheap with decent attack but fragile
    
 <img width="200" height="200" alt="Shadow_Bat" src="https://github.com/user-attachments/assets/7021aa03-a485-4e3c-8568-36a50dfbdc7e" />
 
