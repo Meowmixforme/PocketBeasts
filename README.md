@@ -40,7 +40,7 @@ PocketBeasts is a two-player, turn-based card game. Each player controls a deck 
   
 ## The PocketBeasts
 
-Ashen Lamb
+**Ashen Lamb**
    -Class: Direct Attacker
    -Mana: 2 | Attack: 1 | Health: 3
    -Description: Sneaky low-attack, high-health direct attacker
